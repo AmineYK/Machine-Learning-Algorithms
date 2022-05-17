@@ -1,13 +1,5 @@
 # -*- coding: utf-8 -*-
 
-"""
-Package: iads
-File: Classifiers.py
-Année: LU3IN026 - semestre 2 - 2021-2022, Sorbonne Université
-"""
-
-# Classfieurs implémentés en LU3IN026
-# Version de départ : Février 2022
 
 # Import de packages externes
 import numpy as np
@@ -39,6 +31,7 @@ class Classifier:
         
         return cpt / len(label_set)
 #---------------------------------------------------------------------------------------------------       
+
 
 #  Classifier KNN
 #---------------------------------------------------------------------------------------------------
