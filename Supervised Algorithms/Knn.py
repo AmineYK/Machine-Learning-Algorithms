@@ -2,10 +2,6 @@
 
 # Import de packages externes
 import numpy as np
-import pandas as pd
-import math as mt
-import random as rd
-from numpy import linalg as la
 
 import AbstractClassifier as AC
 

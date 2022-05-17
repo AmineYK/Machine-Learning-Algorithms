@@ -33,31 +33,6 @@ class Classifier:
 #---------------------------------------------------------------------------------------------------       
 
 
-
-#  Classifier Random Lineaire
-#---------------------------------------------------------------------------------------------------
-class ClassifierLineaireRandom(Classifier):
-
-    def __init__(self, input_dimension):
-        w = np.random.uniform(-1 , 1 , input_dimension)
-        self.w = w / la.norm(w)
-
-        
-    def train(self, desc_set, label_set):
-      
-        print("Pas d'apprentissage pour ce classifier")
-    
-    def score(self,x):
-        return np.dot(x,self.w)
-
-    
-    def predict(self, x):
-        if(self.score(x) >= 0):
-            return 1
-        else:
-            return -1
-#---------------------------------------------------------------------------------------
-
 # Classifier Perceptron Rosenbalt
 #---------------------------------------------------------------------------------------
 class ClassifierPerceptron(Classifier):
