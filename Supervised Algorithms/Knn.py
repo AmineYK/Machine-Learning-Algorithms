@@ -10,6 +10,8 @@ from numpy import linalg as la
 import AbstractClassifier as AC
 
 #  Classifier KNN
+# K-Neirest Neighbors
+# the class of point X is the same than the majority class of K-neirest points to X . 
 #---------------------------------------------------------------------------------------------------
 class ClassifierKNN(AC.Classifier):
     
